@@ -37,6 +37,11 @@ p a:hover {
     border-radius: 4px;
 }
 
+select.input {
+    width: 65%;
+    height: 35px;
+}
+
 .button {
     margin: 15px;
     width: 40%;
@@ -49,6 +54,11 @@ p a:hover {
 @media screen and (max-width: 600px) {
     body {
         font-size: 12px;
+    }
+
+
+    select.input {
+        width: 87%;
     }
 
     .button {
