@@ -3,7 +3,7 @@ import logo from './logo.png';
 import './App.css';
 
 class Login extends Component {
-    render() {
+    static render() {
         return (
             <div className="login text-center">
                 <header className="login-header">

@@ -3,7 +3,7 @@ import logo from './logo.png';
 
 
 class Register extends Component {
-     render() {
+     static render() {
          return (
              <div className="login text-center">
                  <header className="login-header">
@@ -14,9 +14,9 @@ class Register extends Component {
                          <input className="input" type="text" name="lastName" placeholder="Last name" required={true}/>
                          <input className="input" type="email" name="email" placeholder="Email" required={true}/>
                          <select className="input" placeholder="Gender">
-                             <option value="volvo">Male</option>
-                             <option value="saab">Female</option>
-                             <option value="mercedes">Other</option>
+                             <option value="male">Male</option>
+                             <option value="female">Female</option>
+                             <option value="other">Other</option>
                          </select>
                          <input className="button" type="submit" value="Register"/>
                      </form>

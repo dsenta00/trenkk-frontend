@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom'
 
 class login extends Component {
-    render() {
+    static render() {
         return (
             <div>
                 <Router>
