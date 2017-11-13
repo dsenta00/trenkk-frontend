@@ -3,7 +3,7 @@ import logo from './logo.png';
 
 
 class Register extends Component {
-     static render() {
+     render() {
          return (
              <div className="login text-center">
                  <header className="login-header">
