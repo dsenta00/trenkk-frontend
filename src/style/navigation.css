@@ -34,7 +34,6 @@ li a:hover {
     transform: translateX(-50%);
 }
 
-
 /* mobile */
 @media screen and (max-width: 950px) {
     #navigation {

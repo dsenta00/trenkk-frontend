@@ -1,7 +1,7 @@
 .dashboard-info {
     width: 80%;
     padding-top: 30px;
-    overflow:auto;
+    overflow: auto;
 }
 
 .info {
@@ -26,7 +26,7 @@
     width: 80%;
     padding-top: 30px;
     padding-bottom: 30px;
-    overflow:auto;
+    overflow: auto;
     margin-left: 22%;
 }
 
@@ -34,7 +34,6 @@
     width: 80%;
     padding-top: 30px;
 }
-
 
 /* mobile */
 @media screen and (max-width: 600px) {

@@ -13,13 +13,13 @@ import {
 class login extends Component {
     render() {
         return (
-                <Router>
-                    <div>
-                            <Route exact path="/" component={Login}/>
-                            <Route exact path="/registration" component={Register}/>
-                            <Route exact path="/dashboard" component={Dashboard}/>
-                    </div>
-                </Router>
+            <Router>
+                <div>
+                    <Route exact path="/" component={Login}/>
+                    <Route exact path="/registration" component={Register}/>
+                    <Route exact path="/dashboard" component={Dashboard}/>
+                </div>
+            </Router>
         );
     }
 }
