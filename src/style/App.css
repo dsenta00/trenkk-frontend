@@ -10,6 +10,19 @@ body {
     text-align: center;
 }
 
+#main {
+    width: 100%;
+    height: 100%;
+    min-height: -webkit-fill-available;
+    margin-top: -2%;
+}
+
+#dashboard-link {
+    width: 100%;
+    height: 100%;
+    min-height: -webkit-fill-available;
+}
+
 h2 {
     font-size: 18px;
     font-weight: 300;
@@ -28,13 +41,18 @@ p a:hover {
     color: #34495E;
 }
 
+#registration-link {
+    font-size: 12px;
+}
+
 .input {
     margin: 20px 10px 10px;
     padding: 10px;
     width: 60%;
-    height: 15px;
+    height: 20px;
     border: 1px solid #808B96;
     border-radius: 4px;
+    font-size: 1.2rem;
 }
 
 select.input {
@@ -50,12 +68,31 @@ select.input {
     border-radius: 4px;
 }
 
+.header-line {
+    width: 76%;
+    align-self: center;
+    border-top: 1px solid #34495e;
+}
+
+.page-title{
+    font-family: "Arial Black";
+    padding-top: 21px;
+    color: #34495E;
+    margin-left: 22%;
+    font-size: 26px;
+}
+
+.subtitle{
+    font-family: "Arial";
+    color: #34495E;
+    font-size: 16px;
+}
+
 /* mobile */
 @media screen and (max-width: 600px) {
     body {
-        font-size: 12px;
+        font-size: 10px;
     }
-
 
     select.input {
         width: 87%;
@@ -71,6 +108,19 @@ select.input {
     }
 
     h2 {
+        font-size: 16px;
+    }
+
+    .subtitle{
+        font-size: 10px;
+    }
+
+    #main {
+        margin-top: -5%;
+    }
+
+    .page-title{
+        padding-top: 24px;
         font-size: 16px;
     }
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './logo.png';
+import logo from '../media/images/logo.png';
 
 
 class Register extends Component {
@@ -8,8 +8,7 @@ class Register extends Component {
              <div className="login text-center">
                  <header className="login-header">
                      <img src={logo} className="login-logo" alt="logo"/>
-                     <h2>To register, please fill out the form below</h2>
-                     <form className="login-form" action="" method="post" id="Dashboard">
+                     <form className="login-form" action="/dashboard" method="get" id="Dashboard">
                          <input className="input" type="text" name="firstName" placeholder="First name" required={true}/>
                          <input className="input" type="text" name="lastName" placeholder="Last name" required={true}/>
                          <input className="input" type="email" name="email" placeholder="Email" required={true}/>

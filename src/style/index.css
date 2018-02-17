@@ -4,6 +4,7 @@
     transform: translateX(-50%);
     margin-left: 50%;
     margin-top: 10%;
+    font-size: 1.5em;
 }
 
 .login-logo {
@@ -12,8 +13,8 @@
 }
 
 .login-form {
-    margin: 20px;
     padding: 20px;
+    font-size: 1.5em;
 }
 
 .login-header {
@@ -23,7 +24,7 @@
 }
 
 /* mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
     .login {
         width: 90%;
     }
@@ -37,5 +38,3 @@
         padding: 10px;
     }
 }
-
-
